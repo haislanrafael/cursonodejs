@@ -8,6 +8,10 @@ var express = require('express');
 // preciso ter acesso as funcionalidades do express, por isso criei uma variavel chamada app que vai receber framework express.
 var app = express();
 
+//ESPECIFICAR LOCAL DO CSS E DA IMAGEM 
+
+app.use(express.static(__dirname + '/pasta'));
+
 
 
 //  ROTAS 

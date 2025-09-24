@@ -1,0 +1,16 @@
+h1{
+   text-align: center;
+}
+
+
+img{
+    border: 0px solid;
+    width: 70%;
+    height: 50%;
+    padding: 15%;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(82, 82, 190);
+}
