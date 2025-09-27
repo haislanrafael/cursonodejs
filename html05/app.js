@@ -5,6 +5,7 @@
 var express = require('express');
 
 // APP
+
 // preciso ter acesso as funcionalidades do express, por isso criei uma variavel chamada app que vai receber framework express.
 var app = express();
 
