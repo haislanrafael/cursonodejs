@@ -21,7 +21,7 @@ app.get('/',function(req,res){
 })
 
 app.post('/receber', function(req, res ){
-res.write("seu nome:" + req.body.nome);
+res.write("seu nome:" + req.body.email);
     res.end();
 })
 
